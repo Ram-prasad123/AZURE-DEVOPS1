@@ -27,6 +27,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'dockerconntoazure'
-    repository: 'azurerepo'
+    repository: 'ramprasad007/azurerepo'
     command: 'buildAndPush'
     Dockerfile: '**/AzureDockerfile'
